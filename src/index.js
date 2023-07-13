@@ -8,7 +8,6 @@ import Registration from './components/Registration';
 import Login from './components/Login'
 import store from './store/store';
 import { Provider } from 'react-redux';
-import ProHeader from './ProHeader';
 import Product from './Product';
 
 
@@ -22,7 +21,6 @@ root.render(
 
     <Provider store={store}>
 
-{/* <ProHeader/> */}
 {/* <Product/> */}
 
 
@@ -33,7 +31,6 @@ root.render(
       <Route path='/' element={<App/>}></Route>
       <Route path='/Registration' element={<Registration/>}></Route>
       <Route path='/Login' element={<Login/>}></Route>
-      <Route path='/ProHeader' element={<ProHeader/>}></Route> 
       <Route path='/Product' element={<Product/>}></Route> 
 
     </Routes>
