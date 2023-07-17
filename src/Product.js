@@ -7,6 +7,7 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import Stack from '@mui/material/Stack';
 
 
+
 export default function Product() {
     const prod = useSelector(y=>y.product);
 
